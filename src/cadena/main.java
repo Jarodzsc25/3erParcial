@@ -1,3 +1,5 @@
+package cadena;
+
 public class main {
     public static void main(String args[]) {
         cadena cadena = new cadena();

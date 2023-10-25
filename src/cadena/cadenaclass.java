@@ -1,3 +1,5 @@
+package cadena;
+
 public class cadenaclass {
     public static int numMayusculas(String cadena) {
         int numMayusculas = 0;
