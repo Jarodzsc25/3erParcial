@@ -1,6 +1,6 @@
-package cadena;
+package ejercicio3_2;
 
-public class cadenaclass {
+public class cadena {
     public static int numMayusculas(String cadena) {
         int numMayusculas = 0;
         for (int i = 0; i < cadena.length(); i++) {
