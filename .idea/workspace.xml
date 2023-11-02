@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8975ff8-bf5a-46e7-88ea-29895a8ed9eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ejercicio4_1/libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio4_1/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio4_1/librosdetexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio4_1/librosdetextounivesidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio4_1/novela.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4_1/libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4_1/libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4_1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4_1/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/LabA1_PC11/Desktop/3erParcial",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/JAROD/Desktop/3erParcial",
     "onboarding.tips.debug.path": "C:/Users/JAROD/IdeaProjects/tarea/src/Main.java"
   }
 }]]></component>
