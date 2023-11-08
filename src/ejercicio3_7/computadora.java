@@ -1,7 +1,9 @@
 package ejercicio3_7;
 
 public class computadora {
-    String marca,caracteristicasprocesador,sistemaoperativo;
+    String marca;
+    String caracteristicasprocesador;
+    String sistemaoperativo;
     int cantidadmemoria;
     double precio;
 
