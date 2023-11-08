@@ -142,4 +142,71 @@ public class curso {
         }
         return 0;
     }
+    public int obtenerCantidadEstudiantesAprobados() {
+        int cantidadAprobados = 0;
+        for (int i = 0; i < cantidadestudiantes; i++) {
+            if (estudiantes[i].getNotafinal() >= 61) {
+                cantidadAprobados++;
+            }
+        }
+        return cantidadAprobados;
+    }
+
+    public double calcularPorcentajeAprobados() {
+        int aprobados = obtenerCantidadEstudiantesAprobados();
+        if (cantidadestudiantes > 0) {
+            return (double) aprobados / cantidadestudiantes * 100;
+        } else {
+            return 0;
+        }
+    }
+    public void mostrarMenu() {
+        Scanner sc= new Scanner(System.in);
+
+        while (true) {
+            System.out.println("Menu:");
+            System.out.println("1. Agregar estudiante");
+            System.out.println("2. Buscar estudiante por codigo");
+            System.out.println("3. Eliminar estudiante por codigo");
+            System.out.println("4. Calcular promedio del curso");
+            System.out.println("5. Obtener cantidad de estudiantes aprobados");
+            System.out.println("6. Salir");
+            System.out.print("Seleccione una opcion: ");
+
+            int opcion = sc.nextInt();
+
+            switch (opcion) {
+                case 1:
+                    agregarEstudiante();
+                    break;
+                case 2:
+                    buscarEstudiantePorCodigo();
+                    break;
+                case 3:
+                    eliminarEstudiantePorCodigo();
+                    break;
+                case 4:
+                    double promedio = calcularPromedioPorSemestre();
+
+
+                    System.out.println("Promedio del curso: " + promedio);
+                    break;
+                case 5:
+                    int cantidadAprobados = obtenerCantidadEstudiantesAprobados();
+                    double porcentajeAprobados = calcularPorcentajeAprobados();
+                    System.out.println("-----------------------------------------------------");
+                    System.out.println("Cantidad de estudiantes aprobados: " + cantidadAprobados);
+                    System.out.println("Porcentaje de estudiantes aprobados: " + porcentajeAprobados + "%");
+                    System.out.println("-----------------------------------------------------");
+                    break;
+                case 6:
+                    System.out.println("Saliendo del programa.");
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Opcion no valida. Intente de nuevo.");
+            }
+        }
+    }
+
 }
