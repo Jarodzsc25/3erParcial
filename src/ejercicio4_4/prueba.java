@@ -9,7 +9,7 @@ public class prueba {
         profesor profesor1  = new profesortitular();
         profesor1.imprimir();
         */
-
+        //problea resuelto ya da el codigo XD
         profesor profesor1 = new profesortitular();
         profesor profesor2 = (profesor) profesor1;
         profesor2.imprimir();
